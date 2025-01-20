@@ -100,7 +100,54 @@
     max-height: 575px;
     margin-left: 25px;
    }
-/* responsive start here */
-   @media screen and  {
-    
+   /* banner end here */
+   /* card start here */
+   .Curriculum-cards{
+    background-image: url(../images/bg.png);
    }
+   .cards-title{
+    width: 460px;
+    height: 57px;
+    margin: 60px 489.7px 80px 489.7px;
+    font-weight: 700px;
+    font-size: 2.5rem;
+   }
+   .cards-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+    margin: 0px 140px 80px 140px;
+   }
+   .cards-1{
+    width: 367px;
+    height: 476px;
+    background-color: ;
+    border-radius: 18px;
+ 
+    
+
+   }
+   .cards-2{
+    width: 367px;
+    height: 476px;
+    background-color: #5D58EF;
+    border-radius: 18px;
+    
+
+   }
+   .cards-3{
+    width: 367px;
+    height: 476px;
+    background-color: white;
+    border-radius: 18px;
+    
+
+   }
+
+/* responsive start here */
+@media screen and (max-width: 576px;) {
+    .nav-brand-img{
+        width: 40px;
+        height: 40px;
+    }
+}
